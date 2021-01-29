@@ -354,12 +354,8 @@ body {
   overflow: hidden;
   height: 50vh;
   width: 100%;
-<<<<<<< HEAD
   background-image: url(../img/contact-img.png); }
-=======
-  background-image: url(../img/contact-img.png);
 }
->>>>>>> aa24a1ca06676bf7aafca374694128f058175eab
 
 iframe {
   border: 4px solid #2071e7; }

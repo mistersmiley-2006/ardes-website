@@ -354,5 +354,6 @@ body {
   overflow: hidden;
   height: 50vh;
   width: 100%;
-  background-image: url(../img/test.jpg);
-}
+  background-image: url(../img/test.jpg) center center;
+  background-size: cover;
+  background-attachment: fixed; }

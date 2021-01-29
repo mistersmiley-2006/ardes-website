@@ -553,11 +553,6 @@ a.logo {
     top: 88%;
     cursor: pointer; }
 
-.frameimg-container {
-  overflow: hidden;
-  height: 50vh;
-  width: 100%; }
-
 footer {
   display: flex;
   flex-flow: column wrap;

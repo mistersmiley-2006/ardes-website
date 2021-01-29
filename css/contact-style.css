@@ -350,6 +350,12 @@ body {
   margin-left: 1rem !important;
   margin-right: 1rem !important; }
 
+.frameimg-container {
+  overflow: hidden;
+  height: 50vh;
+  width: 100%;
+  background-image: url(../img/contact-img.png); }
+
 iframe {
   border: 4px solid #2071e7; }
 

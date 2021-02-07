@@ -56,6 +56,13 @@ p {
   .underred:hover {
     background-size: 100% 100%; }
 
+.separator {
+  height: 0.3rem;
+  width: 40rem;
+  background: #333;
+  margin-top: 3rem;
+  margin-bottom: 1rem; }
+
 html {
   font-size: 62.5%; }
 

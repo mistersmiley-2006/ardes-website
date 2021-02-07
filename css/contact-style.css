@@ -56,6 +56,13 @@ p {
   .underred:hover {
     background-size: 100% 100%; }
 
+.separator {
+  height: 0.3rem;
+  width: 40rem;
+  background: #333;
+  margin-top: 3rem;
+  margin-bottom: 1rem; }
+
 html {
   font-size: 62.5%; }
 
@@ -437,3 +444,42 @@ iframe {
   100% {
     background-size: 100% 100%;
     background-position: bottom left; } }
+
+.center {
+  margin-left: 5rem;
+  font-size: 1.6rem;
+  cursor: pointer; }
+  .center:hover .center-title .fa-sort-down {
+    transform: rotate(180deg); }
+  .center:hover .center-deroulant {
+    max-height: 50em; }
+  .center:hover .center-title {
+    background-size: 100% 100%; }
+  .center .center-title {
+    font-size: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    background: linear-gradient(to top, #db4437 0%, #db4437 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+    transition: background-size 0.5s; }
+    .center .center-title .fa-sort-down {
+      transition: ease-out all 0.3s;
+      font-size: 2.4rem; }
+  .center .center-category {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600; }
+  .center li {
+    margin-top: 1rem;
+    list-style: circle; }
+  .center .center-deroulant {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s ease-out; }
+  .center .center-img {
+    max-height: 20rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #db4437; }
